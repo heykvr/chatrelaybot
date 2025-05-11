@@ -37,20 +37,19 @@ ChatRelayBot is a Slack bot designed to process user mentions and direct message
 ---
 
 ### 3. Environment Variables
-Create a `.env` file in the root directory with the following variables:
-```plaintext
-SLACK_BOT_TOKEN=your-bot-user-oauth-token
-SLACK_APP_TOKEN=your-app-level-token
-OTEL_EXPORTER_OTLP_ENDPOINT=your-opentelemetry-endpoint
-BACKEND_URL=http://localhost:8080/v1/chat/stream
-OTEL_EXPORTER=console
-SLACK_TEST_CHANNEL=your-test-channel-id
-PORT=8080
-SLACK_CHANNEL=your-channel-id
-SLACK_BOT_USER_ID=your-bot-user-id
+ - Create a `.env` file in the root directory with the following variables:
+- SLACK_BOT_TOKEN=your-bot-user-oauth-token
+ - SLACK_APP_TOKEN=your-app-level-token
+ - OTEL_EXPORTER_OTLP_ENDPOINT=your-opentelemetry-endpoint
+-  BACKEND_URL=http://localhost:8080/v1/chat/stream
+ - OTEL_EXPORTER=console
+ - SLACK_TEST_CHANNEL=your-test-channel-id
+  -PORT=8080
+ - SLACK_CHANNEL=your-channel-id
+  - SLACK_BOT_USER_ID=your-bot-user-id
 
 
-### 4. Build and Run the Application Locally
+<!-- ### 4. Build and Run the Application Locally
 Install dependencies:
 Build the application:
 Run the application:
@@ -121,7 +120,7 @@ SLACK_CHANNEL=your-channel-id
 SLACK_BOT_USER_ID=your-bot-user-id
 ```
 
----
+--- -->
 
 ### 4. Build and Run the Application Locally
 1. Install dependencies:
