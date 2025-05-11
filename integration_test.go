@@ -193,10 +193,10 @@ func TestSendRealMessageToChannel(t *testing.T) {
 func TestSendMentionToBotInChannel(t *testing.T) {
 	token := loadBotToken(t)
 	api := slack.New(token)
-	channel := os.Getenv("SLACK_CHANNEL")                  // Or use channel ID like "C12345678"
-	botUserID := os.Getenv("SLACK_BOT_USER_ID") // Optional: set this in your .env for real mention
+	channel := os.Getenv("SLACK_CHANNEL")                  
+	botUserID := os.Getenv("SLACK_BOT_USER_ID")
 	if botUserID == "" {
-		botUserID = "chatrelaybot" // fallback to bot handle, but user ID is better!
+		botUserID = "chatrelaybot" 
 	}
 	text := "<@" + botUserID + "> Hello, this is a test mention!"
 
