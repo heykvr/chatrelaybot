@@ -123,17 +123,27 @@ SLACK_BOT_USER_ID=your-bot-user-id
 
 --- -->
 
-### 4. Build and Run the Application Locally
-1. Install dependencies:
+### 4. Clone and Run the Application Locally
+
+1. Clone Repo:
+   ```sh
+   git clone https://github.com/heykvr/chatrelaybot
+   ```
+2. navigate to project Directory
+   ```sh
+   cd chatrelaybot
+   ```
+
+3. Install dependencies:
    ```sh
    go mod tidy
    ```
 
-2. Run the application:
+4. Run the application:
    ```sh
    go run main.go
    ```
-3. Iam keeping logs in terminal
+5. Iam keeping logs in terminal
 
 ---
 
