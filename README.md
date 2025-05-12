@@ -146,6 +146,7 @@ SLACK_BOT_USER_ID=your-bot-user-id
 ### 6. Interact with the Bot
 - **Mention the Bot**: Use `@chatrelaybot <your query>` in a channel.
 - **Direct Message**: Send a message directly to the bot.
+- ![alt text](image.png)
 
 ---
 
