@@ -1,5 +1,6 @@
 # ChatRelayBot Documentation
-![alt text](image.png)
+![20250509_43f5ad](https://github.com/user-attachments/assets/96c822a7-44d4-4100-82a8-676f30329801)
+
 ## Project Overview
 ChatRelayBot is a Slack bot designed to process user mentions and direct messages, relay them to a backend service, and return responses. It leverages OpenTelemetry for tracing and uses a worker pool to handle concurrent tasks efficiently. The bot operates in Slack's Socket Mode for real-time event handling.
 
