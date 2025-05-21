@@ -23,7 +23,6 @@ ChatRelayBot is a Slack bot designed to process user mentions and direct message
    - `groups:history`
    - `im:history`
 3. Enable **Event Subscriptions**:
-   - Add a Request URL (e.g., `http://localhost:8080/events`).
    - Subscribe to the following events:
      - `app_mention`
      - `message.im`
